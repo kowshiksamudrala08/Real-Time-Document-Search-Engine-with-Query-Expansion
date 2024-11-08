@@ -116,7 +116,7 @@ def main():
             for token in set(doc_tokens):
                 idf[token] += 1
         
-        st.write(f"{len(uploaded_files)} document(s) uploaded successfully.")
+        st.success(f"{len(uploaded_files)} document(s) uploaded successfully.")
     
     # Process the input query
     if query_input:
