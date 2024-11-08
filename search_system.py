@@ -70,6 +70,7 @@ def cosine_similarity(vector1, vector2):
 # Streamlit main function
 def main():
     # Set up the Streamlit page layout
+    st.set_page_config(page_title="Search Engine System", page_icon=None)
     st.title("Real-Time Document Search Engine with Query Expansion")
     # Upload multiple documents or queries in real-time
     uploaded_files = st.file_uploader("Upload documents", type=["txt"], accept_multiple_files=True)
