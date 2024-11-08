@@ -1,0 +1,7 @@
+os  # Standard library - no need to install separately
+re  # Standard library - no need to install separately
+math  # Standard library - no need to install separately
+time  # Standard library - no need to install separately
+nltk
+streamlit
+scikit-learn
