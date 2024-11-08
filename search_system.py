@@ -12,6 +12,7 @@ from nltk.corpus import stopwords
 
 # Download the stopwords if not already downloaded
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 
 # Initialize Stemmer, Stopwords, IDF, and other variables
